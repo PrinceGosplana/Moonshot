@@ -12,7 +12,9 @@ struct ResizingImageView: View {
         Image(.bronco3)
             .resizable()
             .scaledToFit()
-            .frame(width: 300, height: 300)
+            .containerRelativeFrame(.horizontal) { size, axis in
+                size * 0.8
+            }
     }
 }
 
