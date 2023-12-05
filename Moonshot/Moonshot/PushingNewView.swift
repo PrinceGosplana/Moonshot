@@ -10,8 +10,15 @@ import SwiftUI
 struct PushingNewView: View {
     var body: some View {
         NavigationStack {
-            NavigationLink("Tap me") {
+            NavigationLink {
                 Text("Detail view")
+            } label: {
+                VStack {
+                    Text("This is the label")
+                    Text("So is this")
+                    Image(systemName: "face.smiling")
+                }
+                .font(.largeTitle)
             }
             .navigationTitle("SwiftUI")
         }
