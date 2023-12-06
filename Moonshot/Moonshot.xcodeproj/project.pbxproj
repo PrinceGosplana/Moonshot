@@ -16,6 +16,7 @@
 		959B2BAF2B1D8BDE002FA61D /* CustomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BAE2B1D8BDE002FA61D /* CustomTextView.swift */; };
 		959B2BB12B1ED63F002FA61D /* PushingNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB02B1ED63F002FA61D /* PushingNewView.swift */; };
 		959B2BB32B1ED8E6002FA61D /* PushingListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB22B1ED8E6002FA61D /* PushingListVIew.swift */; };
+		959B2BB52B202D14002FA61D /* CodableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB42B202D14002FA61D /* CodableDataView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		959B2BAE2B1D8BDE002FA61D /* CustomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextView.swift; sourceTree = "<group>"; };
 		959B2BB02B1ED63F002FA61D /* PushingNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingNewView.swift; sourceTree = "<group>"; };
 		959B2BB22B1ED8E6002FA61D /* PushingListVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingListVIew.swift; sourceTree = "<group>"; };
+		959B2BB42B202D14002FA61D /* CodableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDataView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				959B2BB22B1ED8E6002FA61D /* PushingListVIew.swift */,
 				959B2BAE2B1D8BDE002FA61D /* CustomTextView.swift */,
 				959B2B9E2B1C4AAB002FA61D /* ContentView.swift */,
+				959B2BB42B202D14002FA61D /* CodableDataView.swift */,
 				959B2BA02B1C4AAE002FA61D /* Assets.xcassets */,
 				959B2BA22B1C4AAE002FA61D /* Preview Content */,
 			);
@@ -159,6 +162,7 @@
 				959B2BB32B1ED8E6002FA61D /* PushingListVIew.swift in Sources */,
 				959B2BB12B1ED63F002FA61D /* PushingNewView.swift in Sources */,
 				959B2B9D2B1C4AAB002FA61D /* MoonshotApp.swift in Sources */,
+				959B2BB52B202D14002FA61D /* CodableDataView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
