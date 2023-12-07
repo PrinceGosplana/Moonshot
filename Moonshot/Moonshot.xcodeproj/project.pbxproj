@@ -17,6 +17,7 @@
 		959B2BB12B1ED63F002FA61D /* PushingNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB02B1ED63F002FA61D /* PushingNewView.swift */; };
 		959B2BB32B1ED8E6002FA61D /* PushingListVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB22B1ED8E6002FA61D /* PushingListVIew.swift */; };
 		959B2BB52B202D14002FA61D /* CodableDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB42B202D14002FA61D /* CodableDataView.swift */; };
+		959B2BB72B21781F002FA61D /* ScrollingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BB62B21781F002FA61D /* ScrollingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		959B2BB02B1ED63F002FA61D /* PushingNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingNewView.swift; sourceTree = "<group>"; };
 		959B2BB22B1ED8E6002FA61D /* PushingListVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushingListVIew.swift; sourceTree = "<group>"; };
 		959B2BB42B202D14002FA61D /* CodableDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableDataView.swift; sourceTree = "<group>"; };
+		959B2BB62B21781F002FA61D /* ScrollingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 				959B2BAE2B1D8BDE002FA61D /* CustomTextView.swift */,
 				959B2B9E2B1C4AAB002FA61D /* ContentView.swift */,
 				959B2BB42B202D14002FA61D /* CodableDataView.swift */,
+				959B2BB62B21781F002FA61D /* ScrollingView.swift */,
 				959B2BA02B1C4AAE002FA61D /* Assets.xcassets */,
 				959B2BA22B1C4AAE002FA61D /* Preview Content */,
 			);
@@ -158,6 +161,7 @@
 				959B2BAB2B1C715D002FA61D /* ResizingImageView.swift in Sources */,
 				959B2BAF2B1D8BDE002FA61D /* CustomTextView.swift in Sources */,
 				959B2B9F2B1C4AAB002FA61D /* ContentView.swift in Sources */,
+				959B2BB72B21781F002FA61D /* ScrollingView.swift in Sources */,
 				959B2BAD2B1D8A46002FA61D /* ScrollCustomView.swift in Sources */,
 				959B2BB32B1ED8E6002FA61D /* PushingListVIew.swift in Sources */,
 				959B2BB12B1ED63F002FA61D /* PushingNewView.swift in Sources */,
