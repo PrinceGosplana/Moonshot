@@ -11,7 +11,8 @@ import SwiftUI
 struct MoonshotApp: App {
     var body: some Scene {
         WindowGroup {
-            CodableDataView()
+            AstronautsView()
+//            CodableDataView()
 //            ScrollCustomView()
         }
     }
