@@ -9,8 +9,12 @@ import SwiftUI
 
 struct AstronautsView: View {
     let astronauts: [String: Astronaut] = Bundle.main.decode("astronauts.json")
+    let missions: [Mission] = Bundle.main.decode("missions.json")
     var body: some View {
-        Text("^[Hello, \(astronauts.count) astronaut!](inflect: true)")
+        VStack {
+            Text("^[Hello, \(astronauts.count) astronaut!](inflect: true)")
+            Text("^[completed, \(missions.count) mission!](inflect: true)")
+        }
     }
 }
 
