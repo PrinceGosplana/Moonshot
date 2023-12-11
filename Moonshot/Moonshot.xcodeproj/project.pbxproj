@@ -24,6 +24,8 @@
 		959B2BC32B22CBFF002FA61D /* AstronautsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BC22B22CBFF002FA61D /* AstronautsView.swift */; };
 		959B2BC72B22CC62002FA61D /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BC62B22CC62002FA61D /* Astronaut.swift */; };
 		959B2BC92B2479AB002FA61D /* Mission.swift in Sources */ = {isa = PBXBuildFile; fileRef = 959B2BC82B2479AB002FA61D /* Mission.swift */; };
+		95AC09B02B25FE8C0001DCC7 /* TimeLineExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09AF2B25FE8C0001DCC7 /* TimeLineExampleView.swift */; };
+		95AC09B32B26CA020001DCC7 /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AC09B22B26CA020001DCC7 /* Color-Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		959B2BC22B22CBFF002FA61D /* AstronautsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautsView.swift; sourceTree = "<group>"; };
 		959B2BC62B22CC62002FA61D /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
 		959B2BC82B2479AB002FA61D /* Mission.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mission.swift; sourceTree = "<group>"; };
+		95AC09AF2B25FE8C0001DCC7 /* TimeLineExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLineExampleView.swift; sourceTree = "<group>"; };
+		95AC09B22B26CA020001DCC7 /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		959B2B9B2B1C4AAB002FA61D /* Moonshot */ = {
 			isa = PBXGroup;
 			children = (
+				95AC09B12B26C9DC0001DCC7 /* Helpers */,
 				959B2B9C2B1C4AAB002FA61D /* MoonshotApp.swift */,
 				959B2BAA2B1C715D002FA61D /* ResizingImageView.swift */,
 				959B2BAC2B1D8A46002FA61D /* ScrollCustomView.swift */,
@@ -86,10 +91,10 @@
 				959B2B9E2B1C4AAB002FA61D /* ContentView.swift */,
 				959B2BB42B202D14002FA61D /* CodableDataView.swift */,
 				959B2BB62B21781F002FA61D /* ScrollingView.swift */,
-				959B2BBE2B22CAA2002FA61D /* Bundle-Decodable.swift */,
 				959B2BC22B22CBFF002FA61D /* AstronautsView.swift */,
 				959B2BC82B2479AB002FA61D /* Mission.swift */,
 				959B2BC62B22CC62002FA61D /* Astronaut.swift */,
+				95AC09AF2B25FE8C0001DCC7 /* TimeLineExampleView.swift */,
 				959B2BB82B22C8FE002FA61D /* astronauts.json */,
 				959B2BB92B22C8FF002FA61D /* missions.json */,
 				959B2BA02B1C4AAE002FA61D /* Assets.xcassets */,
@@ -104,6 +109,15 @@
 				959B2BA32B1C4AAE002FA61D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		95AC09B12B26C9DC0001DCC7 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				959B2BBE2B22CAA2002FA61D /* Bundle-Decodable.swift */,
+				95AC09B22B26CA020001DCC7 /* Color-Theme.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,12 +196,14 @@
 				959B2BAF2B1D8BDE002FA61D /* CustomTextView.swift in Sources */,
 				959B2BC32B22CBFF002FA61D /* AstronautsView.swift in Sources */,
 				959B2B9F2B1C4AAB002FA61D /* ContentView.swift in Sources */,
+				95AC09B32B26CA020001DCC7 /* Color-Theme.swift in Sources */,
 				959B2BB72B21781F002FA61D /* ScrollingView.swift in Sources */,
 				959B2BAD2B1D8A46002FA61D /* ScrollCustomView.swift in Sources */,
 				959B2BBF2B22CAA2002FA61D /* Bundle-Decodable.swift in Sources */,
 				959B2BC72B22CC62002FA61D /* Astronaut.swift in Sources */,
 				959B2BC92B2479AB002FA61D /* Mission.swift in Sources */,
 				959B2BB32B1ED8E6002FA61D /* PushingListVIew.swift in Sources */,
+				95AC09B02B25FE8C0001DCC7 /* TimeLineExampleView.swift in Sources */,
 				959B2BB12B1ED63F002FA61D /* PushingNewView.swift in Sources */,
 				959B2B9D2B1C4AAB002FA61D /* MoonshotApp.swift in Sources */,
 				959B2BB52B202D14002FA61D /* CodableDataView.swift in Sources */,

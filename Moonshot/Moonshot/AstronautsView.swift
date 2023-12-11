@@ -31,11 +31,18 @@ struct AstronautsView: View {
                                 VStack {
                                     Text(mission.displayName)
                                         .font(.headline)
-                                    Text(mission.launchDate ?? "N/A")
+                                    Text(mission.formattedLaunchDate)
                                         .font(.caption)
                                 }
+                                .padding(.vertical)
                                 .frame(maxWidth: .infinity)
+                                .background(.lightBackground)
                             }
+                            .clipShape(.rect(cornerRadius: 10))
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(.lightBackground)
+                            )
                         }
                     }
                 }
