@@ -28,11 +28,14 @@ struct AstronautsView: View {
                                     .resizable()
                                     .scaledToFit()
                                     .frame(width: 100, height: 100)
+                                    .padding()
                                 VStack {
                                     Text(mission.displayName)
                                         .font(.headline)
+                                        .foregroundStyle(.white)
                                     Text(mission.formattedLaunchDate)
                                         .font(.caption)
+                                        .foregroundStyle(.white.opacity(0.5))
                                 }
                                 .padding(.vertical)
                                 .frame(maxWidth: .infinity)
@@ -46,8 +49,11 @@ struct AstronautsView: View {
                         }
                     }
                 }
+                .padding([.horizontal, .bottom])
             }
             .navigationTitle("MoonShot")
+            .background(.darkBackground)
+            .preferredColorScheme(.dark)
         }
     }
 }
